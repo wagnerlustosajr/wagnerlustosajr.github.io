@@ -1,0 +1,529 @@
+
+/*|GERAL|*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.WFL-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #27a992;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #27a992;
+}
+
+button:hover, form .WFL-enviar input:hover{
+    box-shadow: 0px 0 px 8px #27a991;
+    transform: scale(1.05);
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo Cabeçalho */
+
+.menu-toggle {
+    display: none;
+}
+header{
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo do topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .texto-topo-do-site h1{
+    color: #fff;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.topo-do-site .texto-topo-do-site h1 span{
+    color: #27a992;
+}
+
+.topo-do-site .texto-topo-do-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .texto-topo-do-site p span{
+    color: #27a992;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*Estilo das especialidades*/
+section.especialidade{
+    padding: 40px 4%;
+}
+
+section.especialidade .flex{
+    gap: 60px;
+}
+
+.especialidade .especialidades-box{
+    color: #fff;  
+    padding: 40px; 
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidade .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff7b;
+}
+.especialidade .especialidades-box i{
+    font-size: 70px;
+    color: #27a991;
+}
+
+    .especialidade .especialidades-box h3{
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+/*Estilo do sobre*/
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 45px;
+    line-height: 43px;
+    margin-bottom: 25px;
+}
+
+.sobre .txt-sobre h2 span{
+color: #27a991;
+display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 25px 0;
+    text-align: justify;
+}
+
+.WFL-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #27a992;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 0 5px;
+}
+
+/*Estilo das formação*/
+section.formação{
+    padding: 40px 4%;
+}
+
+section.formação .flex{
+    gap: 60px;
+}
+
+.formação .formação-box{
+    color: #fff;  
+    padding: 80px; 
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.formação .formação-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff7b;
+}
+.formação .formação-box i{
+    font-size: 70px;
+    color: #27a991;
+}
+
+.formação .formação-box h3{
+        font-size: 10px;
+        margin: 15px 0;
+    }
+
+    /*Estilo do experiências*/
+
+section.experiências{
+    padding: 40px 4%;
+}
+
+section.experiências .flex{
+    gap: 60px;
+}
+
+.experiências .experiências-box{
+    color: #fff;  
+    padding: 20px; 
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.experiências .experiências-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff7b;
+}
+
+.experiências .experiências-box h3{
+    font-size: 12px;
+    margin:  0;
+    } 
+
+.experiências .experiências-box p{
+    font-size: 9.5px;
+    margin:  10px 0;
+}
+
+.experiências .experiências-box i{
+    font-size: 35px;
+    color: #27a991;
+}
+
+
+.WFL-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #27a992;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 10px 5px;
+}
+
+/*Estilo do Portfólio*/
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000bd;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+/*Estilo do form de contato*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #373737;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+}
+
+form .WFL-enviar{
+    margin: 20px;
+    text-align: center;
+}
+
+form .WFL-enviar input{
+    width: 120px;
+    background-color: #27a991;
+    color: #000;
+    font-weight: 700px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* Estilo do Rodapé */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #27a991; ;
+}
+
+footer .line-footer p i{
+    color: #27a991;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1020px){
+    
+    /* Estilização do menu-mobile */
+    /* Classes gerais */
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* Cabeçalho */
+    .WFL-contato{
+        display: none;
+    }
+
+    #menu nav ul {
+        display: none;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #menu nav ul li {
+        padding: 15px;
+    }
+
+    #menu nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+    }
+
+    #menu nav ul li a:hover {
+        background-color: #575757;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu.active ul {
+        display: flex;
+        height: 100%;
+        width: 50vw;
+        margin-top: 20vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #00000000;
+        color: #fff;
+        padding-top: 20px;
+    }
+
+    /* Topo do site */
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .texto-topo-do-site h1{
+        font-size: 28px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /*Estilo das especialidades*/
+    section.especialidade{
+        padding: 40px 8%;
+    }
+
+    /* Sobre */
+    section.especialidades{
+        padding: 40px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 38px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .WFL-social{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+    
+    /* poRtfolio */
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex{
+        gap: 60px;
+    }
+
+    /* rodapé */
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    fotter .line-footer{
+        text-align: center;
+    }
+}
