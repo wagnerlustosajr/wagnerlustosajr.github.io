@@ -46,4 +46,4 @@ Sugestões e contribuições são sempre bem-vindas! Sinta-se à vontade para pr
 
 ## Contato
 
-Se você tiver alguma dúvida ou quiser entrar em contato comigo, me envie uma mensagem(https://wagnerlustosajr.github.io/).
+Se você tiver alguma dúvida ou quiser entrar em contato comigo, envie-me uma mensagem(https://wagnerlustosajr.github.io/).
