@@ -112,7 +112,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-topo-site img{
     position: relative;
-    animation: flutuar 1s ease-in-out infinite alternate;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar{
@@ -228,7 +228,7 @@ section.formação .flex{
         margin: 15px 0;
     }
 
-    /*Estilo do experiências*/
+/*Estilo do experiências*/
 
 section.experiências{
     padding: 40px 4%;
@@ -295,7 +295,7 @@ section.portfolio .flex{
     height: 460px;
     background-size: cover;
     background-position: 100% 0%;
-    transition: 8s;
+    transition: 4s;
     cursor: pointer;
     border-radius: 30px;
     position: relative;
